@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>RESULTS</h1>
+<body data-th-object="${calculator}">
+    fname: <p data-th-text="*{fname}"></p>
+    </br>
+    sname: <p data-th-text="*{sname}"></p>
+    </br>
+    percentage: <p data-th-text="*{percentage}"></p>
+    </br>
+    result: <p data-th-text="*{result}"></p>
+    </br>
+
+    <button  onclick="history.back()">Go Back </button>
+</body>
+</html>
